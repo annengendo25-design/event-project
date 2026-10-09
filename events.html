@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Events|EventNest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">EventNest✨</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="how-it-work">How It Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="events-intro">
+        <p class="section-label">FIND YOUR NEXT EXPERIENCE</p>
+        <h1>Explore Events</h1>
+        <p>
+          From exciting live shows to inspiring workshops, discover experiences
+          and connect with people around Nairobi.
+        </p>
+      </section>
+
+      <section class="event-search">
+        <form class="search-form" action="events.html" method="get">
+          <label class="sr-only" for="event-search"> Search events </label>
+
+          <input
+            type="search"
+            id="event-search"
+            name="search"
+            placeholder="Search events, locations..."
+          />
+
+          <button type="submit">Search Events</button>
+        </form>
+
+        <nav class="category-filters" aria-label="Event categories">
+          <a href="events.html" class="active">All Events</a>
+          <a href="#music">Music</a>
+          <a href="#business">Business</a>
+          <a href="#education">Education</a>
+          <a href="#technology">Technology</a>
+          <a href="#arts">Arts & Culture</a>
+          <a href="#sports">Sports</a>
+        </nav>
+      </section>
+
+      <section class="all-events">
+        <div class="section-heading">
+          <p class="section-label">MADE FOR YOUR INTERESTS</p>
+          <h2>Upcoming Events</h2>
+          <p>Find something exciting to add to your calendar</p>
+        </div>
+
+        <div class="event-grid">
+          <article class="event-card" id="technology">
+            <div class="event-image">
+              <img
+                src="images/tech-event.jpg"
+                alt="Attendees at a technology meetup"
+              />
+              <span class="event-category">Technology</span>
+            </div>
+
+            <div class="event-card-content">
+              <p class="event-date">18 October 2026</p>
+              <h3>Nairobi Tech Meetup</h3>
+              <p class="event-location">📍 Westlands, Nairobi</p>
+
+              <div class="event-footer">
+                <strong>KES 500</strong>
+                <a href="event-details.html">View Details </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card" id="arts">
+            <div class="event-image">
+              <img
+                src="images/arts-event.jpg"
+                alt="Artists displaying creative work">
+              <span class="event-category">Arts & Culture</span>
+            </div>
+
+            <div class="event-card-content">
+              <p class="event-date">24 October 2026</p>
+              <h3>Creative Arts Festival</h3>
+              <p class="event-location">📍 Nairobi CBD</p>
+
+              <div class="event-footer">
+                <strong>KES 300</strong>
+                <a href="event-details.html">View Details </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card" id="education">
+            <div class="event-image">
+              <img
+                src="images/career-event.jpg"
+                alt="Students attending a career fair">
+              <span class="event-category">Education</span>
+            </div>
+
+            <div class="event-card-content">
+              <p class="event-date">30 October 2026</p>
+              <h3>Campus Career Fair</h3>
+              <p class="event-location">📍 Kenyatta University</p>
+
+              <div class="event-footer">
+                <strong>Free</strong>
+                <a href="event-details.html">View Details </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card" id="music">
+            <div class="event-image">
+              <img
+                src="images/music-event.jpg"
+                alt="Musicians performing at a live show">
+              <span class="event-category">Music</span>
+            </div>
+
+            <div class="event-card-content">
+              <p class="event-date">7 November 2026</p>
+              <h3>Live Acoustic Evening</h3>
+              <p class="event-location">📍 Kilimani, Nairobi</p>
+
+              <div class="event-footer">
+                <strong>KES 800</strong>
+                <a href="event-details.html">View Details </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card" id="business">
+            <div class="event-image">
+              <img
+                src="images/business-event.jpg"
+                alt="Professionals networking at an event">
+              <span class="event-category">Business</span>
+            </div>
+
+            <div class="event-card-content">
+              <p class="event-date">12 November 2026</p>
+              <h3>Startup Networking Night</h3>
+              <p class="event-location">📍 Upper Hill, Nairobi</p>
+
+              <div class="event-footer">
+                <strong>KES 600</strong>
+                <a href="event-details.html">View Details </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-image">
+              <img
+                src="images/culture-event.jpg"
+                alt="Visitors enjoying a cultural festival">
+              <span class="event-category">Culture</span>
+            </div>
+
+            <div class="event-card-content">
+              <p class="event-date">20 November 2026</p>
+              <h3>Nairobi Culture Fest</h3>
+              <p class="event-location">📍 Karura Area, Nairobi</p>
+
+              <div class="event-footer">
+                <strong>KES 400</strong>
+                <a href="event-details.html">View Details </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card" id="sports">
+            <div class="event-image">
+              <img
+                src="images/sports-event.jpg"
+                alt="Runners taking part in a community race">
+              <span class="event-category">Sports</span>
+            </div>
+
+            <div class="event-card-content">
+              <p class="event-date">22 November 2026</p>
+              <h3>Nairobi Community Run</h3>
+              <p class="event-location">📍 Karura Forest, Nairobi</p>
+
+              <div class="event-footer">
+                <strong>KES 250</strong>
+                <a href="event-details.html">View Details </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-image">
+              <img
+                src="images/food-event.jpg"
+                alt="Food stalls at a local food festival">
+              <span class="event-category">Food</span>
+            </div>
+
+            <div class="event-card-content">
+              <p class="event-date">28 November 2026</p>
+              <h3>Nairobi Food Festival</h3>
+              <p class="event-location">📍 Ngong Road, Nairobi</p>
+
+              <div class="event-footer">
+                <strong>KES 350</strong>
+                <a href="event-details.html">View Details </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div>
+          <h2>EventNest</h2>
+          <p>
+            Discover events. Connect with people. Create memorable experiences.
+          </p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <a href="events.html">Events</a>
+          <a href="categories.html">Categories</a>
+          <a href="how-it-works.html">How It Works</a>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <p>Nairobi,Kenya</p>
+          <p>hello@eventnest.co.ke</p>
+          <p>+254 700 123 456</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 EventNest. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
