@@ -354,12 +354,16 @@ footer{
   margin-bottom: 15px;
 }
 .event-footer a{
-  background-color: #16324f;
+  background: linear-gradient(
+    135deg,
+    #16324f,
+    #d95d40
+  );
   color: #e5dfd5;
   border-radius: 5px;
 }
 .event-footer a:hover{
-  background-color: #475467;
+  background: #961a96;
   text-decoration: none;
 }
 
@@ -383,4 +387,87 @@ footer{
   padding: 20px 30px;
   font-size: 0.85rem;
   color: #9aa9b7;
+}
+.event-intro{
+  padding: 75px 30px 35px;
+  text-align: center;
+}
+.event-intro h1{
+  color: #16324f;
+  font-size: clamp(2.5rem,5vw,4rem);
+  line-height: 1.15;
+  margin-bottom: 15px;
+}
+.event-intro p{
+  max-width: 650px;
+  margin: 0 auto;
+  color: #667085;
+}
+.event-search{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 25px 30px;
+}
+.search-form input{
+  flex: 1;
+  min-width: 0;
+  padding: 15px 18px;
+  border: 1px solid #ddd6cc;
+  border-radius: 10px;
+  background: white;
+  font: inherit;
+}
+.search-form button{
+  padding: 14px 25px;
+  background: #16324f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.search-form button:hover{
+  background: #e76f51;
+}
+.category-filters{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+.category-filters a{
+  padding: 9px 18px;
+  border: 1px solid #ddd6cc;
+  border-radius: 25px;
+  background: white;
+  color: #16324f;
+  transition: all 0.3s ease;
+}
+.category-filters a:hover,
+.category-filters a.active {
+    background: #16324f;
+    color: white;
+    border-color: #16324f;
+}
+.all-events{
+  max-width: 1200px;
+  margin: auto;
+  padding: 35px 30px 85px;
+}
+.all-events .section-heading{
+  margin-bottom: 30px;
+}
+.all-events .event-grid{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.event-card img{
+  object-fit: cover;
+}
+.event-card a:focus-visible,
+.category-filters a:focus-visible,
+.search-form input:focus-visible,
+.search-form button:focus-visible {
+    outline: 3px solid #e76f51;
+    outline-offset: 3px;
 }
