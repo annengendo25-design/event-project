@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register for an Event | EventNest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">EventNest✨</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="how-it-work">How It Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="registration-intro">
+        <span>YOUR NEXT EXPERIENCE STARTS HERE</span>
+        <h1>Event registration</h1>
+        <p>Save your spot and get ready for an unforgettable experience.</p>
+      </section>
+
+      <section class="registration-section">
+        <div class="registration-card">
+          <h2>Attendee Information</h2>
+          <p class="form-description">
+            Fill in your details to register for an event.
+          </p>
+          <form action="confirmation.html" method="get">
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                id="full-name"
+                name="fullName"
+                placeholder="Enter your full name"
+                autocomplete="name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="e.g 0712345678"
+                autocomplete="tel"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="tickets">Number of Tickets</label>
+              <select name="tickets" id="tickets" required>
+                <option value="">Select tickets</option>
+                <option value="1">1 Ticket</option>
+                <option value="2">2 Tickets</option>
+                <option value="3">3 Tickets</option>
+                <option value="4">4 Tickets</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="notes">Additional Notes (Optional)</label>
+              <textarea
+                name="notes"
+                id="notes"
+                rows="3"
+                placeholder="Any questions or special requests?"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-registration">
+              Complete Registration
+            </button>
+
+            <p class="form-note">
+              Your details should be accurate before submitting
+            </p>
+          </form>
+        </div>
+
+        <aside class="registration-summary">
+          <div class="summary-image">
+            <img
+              src="images/tech-event.jpg"
+              alt="Attendees at a technology meetup"
+            />
+            <span>TECHNOLOGY</span>
+          </div>
+
+          <div class="summary-content">
+            <p class="summary-label">YOU'RE REGISTERING FOR</p>
+            <h2>Nairobi Tech Meetup</h2>
+
+            <div class="summary-detail">
+              <span>📅</span>
+              <p>18 October 2026</p>
+            </div>
+
+            <div class="summary-detail">
+              <span>📍</span>
+              <p>Westlands, Nairobi</p>
+            </div>
+
+            <div class="summary-detail">
+              <span>🕒</span>
+              <p>Time to be confirmed</p>
+            </div>
+
+            <div class="summary-price">
+              <span>Price per ticket</span>
+              <strong>KES 500</strong>
+            </div>
+
+            <a href="event-details.html" class="back-to-event">
+              Back to Event Details
+            </a>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <a href="index.html" class="logo">EventNest</a>
+                <p>Discover events. Create memories</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="events.html">Explore Events</a>
+                <a href="how-it-works.html">How It Works</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div>
+                <h3>Get in Touch</h3>
+                <p>Nairobi, Kenya</p>
+                <p>hello@eventnest.co.ke</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 EventNest. All rights reserved</p>
+        </div>
+    </footer>
+  </body>
+</html>
