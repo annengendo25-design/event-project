@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an Event | EventNest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">EventNest✨</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="how-it-work">How It Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="create-event.html" class="nav-button">Create Event</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="create-event-intro">
+        <p class="event-category">FOR EVENT ORGANIZERS</p>
+        <h1>Bring Your Event to Life</h1>
+        <p>
+          Share your event with the EventNest community and help people discover
+          something exciting.
+        </p>
+      </section>
+
+      <section class="create-event-section">
+        <form class="create-event-form" action="#" method="get">
+          <h2>Event Information</h2>
+          <p>Fill in the details below to introduce your event.</p>
+
+          <div class="form-group">
+            <label for="event-name">Event Name</label>
+            <input
+              type="text"
+              id="event-name"
+              name="event-name"
+              placeholder="e.g. Nairobi Meetup"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="event-category">Event Category</label>
+            <select name="event-category" id="event-category" required>
+              <option value="">Choose a category</option>
+              <option value="technology">Technology</option>
+              <option value="music">Music</option>
+              <option value="arts">Arts and Cukture</option>
+              <option value="business">Business</option>
+              <option value="education">Education</option>
+              <option value="sports">Sports and Fitness</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="event-date">Event Date</label>
+            <input type="date" id="event-date" name="event-date" required />
+          </div>
+
+          <div class="form-group">
+            <label for="event-location">Event Location</label>
+            <input
+              type="text"
+              id="event-location"
+              name="event-location"
+              placeholder="e.g. Westlands,Nairobi"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="event-price">Ticket Price(KES)</label>
+            <input
+              type="number"
+              id="event-price"
+              name="event-price"
+              min="0"
+              placeholder="Enter 0 if the event is free"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="event-description">Event Description</label>
+            <textarea
+              name="event-description"
+              id="event-description"
+              rows="5"
+              placeholder="Tell people what your event is about..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="create-event-submit">
+            Submit Event
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <a href="index.html" class="logo">EventNest</a>
+                <p>Discover events.Create memories.</p>
+            </div>
+            <div>
+                <h3>Explore</h3>
+                <a href="events.html">Browse Events</a>
+                <a href="categories.html">Categories</a>
+                <a href="how-it-works.html">How It Works</a>
+            </div>
+            <div>
+                <h3>Get In Touch</h3>
+                <p>Nairobi,Kenya</p>
+                <p>hello@eventnest.co.ke</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;2026 EventNest.All rights reserved</p>
+        </div>
+    </footer>
+  </body>
+</html>
