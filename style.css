@@ -1115,3 +1115,86 @@ text-align: center;
   line-height: 1.8;
   margin-bottom: 25px;
 }
+.create-event-intro{
+  text-align: center;
+  padding: 70px 20px 35px;
+  background: linear-gradient(135deg,
+  #f7f4ef, #ffffff);
+}
+.create-event-intro h1{
+  font-size: clamp(2rem,5vw,3.2rem);
+  color: #16324f;
+  margin: 15px 0;
+}
+.create-event-intro p{
+  color: #667085;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.create-event-section{
+  padding: 50px 20px 80px;
+  background: #f7f4ef;
+}
+.create-event-form{
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 10px 35px rgba(22, 50, 79, 0.08);
+}
+.create-event-form h2{
+  color: #16324f;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+.create-event-form p{
+  color: #667085;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.create-event-form.form-group{
+  margin-bottom: 22px;
+}
+.create-event-form label{
+  display: block;
+  margin-bottom: 8px;
+  color: #1f2933;
+  font-weight: 600;
+}
+.create-event-form input,
+.create-event-form select,
+.create-event-form textarea{
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  font: inherit;
+  color: #1f2933;
+  background: #ffffff;
+  transition: border-color 0.3s,
+  box-shadow 0.3s;
+}
+.create-event-submit{
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #e76f51;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: background 0.3s,
+  transform 0.3s;
+}
+.create-event-submit:hover{
+  background: #d65c40;
+  transform: translateY(-2px);
+}
+.create-event-form.form-note{
+  margin: 15px 0 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #667085;
+}
