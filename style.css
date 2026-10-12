@@ -409,7 +409,7 @@ EVENTS
   );
 }
 .events-intro h1{
-  color: #16324f;
+  color: #213146;
   font-size: clamp(2.5rem,5vw,4rem);
   line-height: 1.15;
   margin-bottom: 15px;
@@ -417,7 +417,7 @@ EVENTS
 .events-intro p{
   max-width: 650px;
   margin: 0 auto;
-  color: #667085;
+  color: #3a435e;
 }
 .event-search{
   max-width: 1140px;
@@ -855,27 +855,27 @@ CATEGORY
 }
 .music-category{
   background: linear-gradient(135deg,
-  #b94d43, #e76f51);
+  #5943b9, #12d6d6);
 }
 .tech-category{
   background: linear-gradient(135deg,
-  #16324f, #315b79);
+  #16324f, #ad097c);
 }
 .arts-category{
-  background: linear-gradient(135deg
-  #c56c3b, #f4a261);
+  background: linear-gradient(135deg,
+  #c56c3b, #099644);
 }
 .business-category{
-  background: linear-gradient(135deg
-  #16324f, #426b78);
+  background: linear-gradient(135deg,
+  #16324f, #532b06);
 }
 .education-category{
   background: linear-gradient(135deg,
-  #a64e42, #d98265);
+  #a64e42, #6593d9);
 }
 .sports-category{
   background: linear-gradient(135deg,
-  #bd6d35, #e9a45f);
+  #bd6d35, #83c40b);
 }
 .category-card:hover{
   transform: translateY(-8px);
@@ -903,8 +903,8 @@ CATEGORY
 .categories-cta{
   text-align: center;
   padding: 65px 20px;
-  background: #16324f;
-  color: #ffffff;
+  background: #4f1629;
+  color: #dbd5d5;
 }
 .categories-cta h2{
   font-size: clamp(1.7rem,4vw,2.4rem);
@@ -935,7 +935,7 @@ HOW-IT-WORK
   text-align: center;
   padding: 80px 20px;
   background: linear-gradient(135deg,
-  #f7f4ef, #fce5da);
+  #f7f4ef, #161210);
 }
 .how-hero span,
 .organizer-content span{
@@ -1123,7 +1123,7 @@ HOW-IT-WORK
   text-align: center;
   padding: 70px 20px;
   background: linear-gradient(135deg,
-  #16324f, #244d6d);
+  #16324f, #03111d);
   color: #ffffff;
 }
 .how-final-cta h2{
@@ -1141,7 +1141,7 @@ CREATE EVENT
   text-align: center;
   padding: 70px 20px 35px;
   background: linear-gradient(135deg,
-  #f7f4ef, #ffffff);
+  #b8780a, #3f3333);
 }
 .create-event-intro h1{
   font-size: clamp(2rem,5vw,3.2rem);
@@ -1176,7 +1176,7 @@ CREATE EVENT
   line-height: 1.6;
   margin-bottom: 25px;
 }
-.create-event-form.form-group{
+.create-event-form .form-group{
   margin-bottom: 22px;
 }
 .create-event-form label{
@@ -1220,7 +1220,7 @@ CONTACTS
   text-align: center;
   padding: 70px 20px 45px;
   background: linear-gradient(135deg,
-  #f7f4ef,#ffffff);
+  #ac771c,#0f1309);
 }
 .contact-hero h1{
   color: #16324f;
@@ -1289,7 +1289,7 @@ CONTACTS
   border-radius: 18px;
   box-shadow: 0 10px 35px rgba(22, 50, 79, 0.08);
 }
-.contact-form.form-group{
+.contact-form .form-group{
   margin-bottom: 22px;
 }
 .contact-form label{
