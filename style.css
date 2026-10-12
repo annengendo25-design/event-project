@@ -492,7 +492,7 @@ footer{
   text-align: center;
   padding: 65px 20px 45px;
   background: linear-gradient(
-    135deg, #1a1917, #d35318
+    135deg, #1a1917, #44d318
   );
 }
 .registration-intro span{
@@ -507,7 +507,7 @@ footer{
   margin: 15px 0;
 }
 .registration-intro p{
-  color: #667085;
+  color: #030b1d;
   line-height: 1.7;
 }
 .registration-section{
