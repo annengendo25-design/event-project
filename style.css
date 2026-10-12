@@ -400,7 +400,6 @@ footer{
   color: #9aa9b7;
 }
 
-EVENTS
 .events-intro{
   padding: 75px 30px 35px;
   text-align: center;
@@ -409,7 +408,7 @@ EVENTS
   );
 }
 .events-intro h1{
-  color: #213146;
+  color: #dadde0;
   font-size: clamp(2.5rem,5vw,4rem);
   line-height: 1.15;
   margin-bottom: 15px;
@@ -417,7 +416,7 @@ EVENTS
 .events-intro p{
   max-width: 650px;
   margin: 0 auto;
-  color: #3a435e;
+  color: #dddee2;
 }
 .event-search{
   max-width: 1140px;
@@ -478,7 +477,7 @@ EVENTS
   margin-bottom: 30px;
 }
 .all-events .event-grid{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 1fr);
 }
 .event-card img{
   object-fit: cover;
@@ -488,12 +487,12 @@ EVENTS
   color: #d95d40;
 }
 
-REGISTRATION
+
 .registration-intro{
   text-align: center;
   padding: 65px 20px 45px;
   background: linear-gradient(
-    135deg, #f7f4ef, #d35318
+    135deg, #1a1917, #d35318
   );
 }
 .registration-intro span{
@@ -660,7 +659,7 @@ margin-bottom: 12px;
   color: #16324f;
 }
 
-CONFIRMATION
+
 .confirmation-page{
   min-height: 75vh;
   padding: 65px 20px;
@@ -796,12 +795,12 @@ text-align: center;
   }
 }
 
-CATEGORY
+
 .categories-hero{
   text-align: center;
   padding: 75px 20px 65px;
   background: linear-gradient(135deg,
-  #f7f4ef, #fce5da);
+  #0986ac, #15db57);
 }
 .categories-hero span{
   color: #e76f51;
@@ -817,7 +816,7 @@ CATEGORY
 .categories-hero p{
   max-width: 650px;
   margin: 0 auto;
-  color: #667085;
+  color: #010818;
   line-height: 1.8;
 }
 .categories-section{
@@ -930,7 +929,7 @@ CATEGORY
   transform: translateY(-3px);
 }
 
-HOW-IT-WORK
+
 .how-hero{
   text-align: center;
   padding: 80px 20px;
@@ -952,7 +951,7 @@ HOW-IT-WORK
 .how-hero p{
   max-width: 650px;
   margin: 0 auto 28px;
-  color: #667085;
+  color: #050d1f;
   line-height: 1.8;
 }
 .how-hero-button,
@@ -1123,8 +1122,8 @@ HOW-IT-WORK
   text-align: center;
   padding: 70px 20px;
   background: linear-gradient(135deg,
-  #16324f, #03111d);
-  color: #ffffff;
+  #16324f, #c1cbd3);
+  color: #3b0606;
 }
 .how-final-cta h2{
   font-size: clamp(1.8rem,4vw,2.5rem);
@@ -1136,7 +1135,7 @@ HOW-IT-WORK
   margin-bottom: 25px;
 }
 
-CREATE EVENT
+
 .create-event-intro{
   text-align: center;
   padding: 70px 20px 35px;
@@ -1149,7 +1148,7 @@ CREATE EVENT
   margin: 15px 0;
 }
 .create-event-intro p{
-  color: #667085;
+  color: #010816;
   max-width: 650px;
   margin: 0 auto;
   line-height: 1.7;
@@ -1215,7 +1214,7 @@ CREATE EVENT
   transform: translateY(-2px);
 }
 
-CONTACTS
+
 .contact-hero{
   text-align: center;
   padding: 70px 20px 45px;
