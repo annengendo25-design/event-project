@@ -1219,10 +1219,10 @@ text-align: center;
   text-align: center;
   padding: 70px 20px 45px;
   background: linear-gradient(135deg,
-  #ac771c,#0f1309);
+  #2809da,#111b02);
 }
 .contact-hero h1{
-  color: #16324f;
+  color: #020d1a;
   font-size: clamp(2.2rem,5vw,3.5rem);
   margin: 15px 0;
 }
