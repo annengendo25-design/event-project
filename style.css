@@ -1324,3 +1324,342 @@ transition: border-color 0.3s,box-shadow 0.3s;
   background: #d65c40;
   transform: translateY(-2px);
 }
+@media (max-width:900px){
+  .navbar{
+    padding: 18px 5%;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .nav-links{
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .hero{
+    gap: 30px;
+    padding: 50px 5%;
+  }
+  .hero-content,
+  .hero-image{
+    flex: 1;
+    min-width: 0;
+  }
+  .stats{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .event-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .steps{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonial-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .search-form{
+    flex-wrap: wrap;
+  }
+  .search-form input{
+    min-width: 0;
+  }
+
+  .event-detail-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .registration-section{
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .confirmation-card{
+    max-width: 650px;
+    width: 100%;
+  }
+
+  .category-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .how-steps-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .organizer-content{
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .create-event-form{
+    max-width: 700px;
+  }
+
+  .contact-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .footer-content{
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width:768px){
+  .navbar{justify-content: center;
+  }
+  .logo{
+    text-align: center;
+  }
+  .nav-links{
+    width: 100%;
+    justify-content: center;
+  }
+  .hero{
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-content,
+  .hero-image{
+    width: 100%;
+  }
+  .hero-image img{
+    max-width: 100%;
+    height: auto;
+  }
+  .closing-cta{
+    padding: 40px 20px;
+  }
+
+  .events-intro{
+    padding: 45px 20px;
+  }
+  .category-filters{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .event-detail-container{
+    grid-template-columns: 1fr;
+  }
+  .event-detail-image{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .registration-card,
+  .registration-summary{
+    width: 100%;
+  }
+
+  .confirmation-page{
+    padding: 35px 15px;
+  }
+  .confirmation-card{
+    padding: 25px 20px;
+  }
+  .confirmation-actions{
+    flex-direction: column;
+  }
+  .confirmation-actions a{
+    width: 100%;
+    text-align: center;
+  }
+
+  .categories-hero{
+    padding: 45px 20px;
+  }
+
+  .organizer-content{
+    grid-template-columns: 1fr;
+  }
+  .organizer-visual{
+    max-width: 100%;
+  }
+
+  .create-event-section{
+    padding: 35px 18px;
+  }
+
+  .contact-container{
+    grid-template-columns: 1fr;
+  }
+  .contact-info{
+    padding: 10px 0;
+  }
+  .contact-form{
+    width: 100px;
+  }
+}
+
+@media (max-width:600px){
+  body{
+    overflow-wrap: break-word;
+  }
+  .navbar{
+    padding: 15px;
+  }
+  .nav-links{
+    gap: 10px;
+  }
+  .nav-links a{
+    font-size: 0.9rem;
+  }
+  .nav-button{
+    padding: 9px 12px;
+  }
+  .hero{
+    padding: 35px 18px;
+  }
+  .hero h1{
+    font-size: clamp(2rem,9vw,2.7rem);
+  }
+  .stats{
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .event-grid{
+    grid-template-columns: 1fr;
+  }
+  .event-card{
+    width: 100%;
+  }
+  .steps{
+    grid-template-columns: 1fr;
+  }
+  .testimonial-grid{
+    grid-template-columns: 1fr;
+  }
+  .section-heading{
+    padding: 0 15px;
+  }
+
+  .events-intro{
+    padding: 35px 15px;
+  }
+  .search-form{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .search-form input,
+  .search-form button{
+    width: 100%;
+  }
+  .category-filters{
+    gap: 10px;
+  }
+  .event-image{
+    height: 200px;
+  }
+
+  .event-detail-hero{
+    padding: 30px 15px;
+  }
+  .event-detail-container{
+    gap: 20px;
+  }
+  .event-card-content h1{
+    font-size: 2rem;
+  }
+  .event-detail-info{
+    gap: 12px;
+  }
+  .event-register-btn{
+    width: 100%;
+    text-align: center;
+  }
+
+  .registration-intro{
+    padding: 35px 15px;
+  }
+  .registration-section{
+    padding: 25px 15px;
+  }
+  .registration-card{
+    padding: 22px 16px;
+  }
+  .registration-summary{
+    padding: 20px 16px;
+  }
+
+  .confirmation-card{
+    padding: 25px 16px;
+  }
+  .confirmation-details{
+    padding: 15px;
+  }
+  .confirmation-row{
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .category-grid{
+    grid-template-columns: 1fr;
+  }
+  .category-card{
+    min-height: 180px;
+  }
+  .categories-cta{
+    padding: 35px 15px;
+  }
+
+  .how-hero{
+    padding: 40px 18px;
+  }
+  .attendee-steps{
+    padding: 30px 15px;
+  }
+  .how-steps-grid{
+    grid-template-columns: 1fr;
+  }
+  .how-step-card{
+    padding: 22px 18px;
+  }
+  .organizer-steps{
+    padding: 35px 18px;
+  }
+  .how-final-cta{
+    padding: 35px 18px;
+  }
+
+  .create-event-intro{
+    padding: 40px 15px 25px;
+  }
+  .create-event-form{
+    padding: 22px 16px;
+  }
+  .create-event-form input,
+  .create-event-form select,
+  .create-event-form textarea{
+    font-size: 16px;
+  }
+
+  .contact-hero{
+    padding: 40px 15px 25px;
+  }
+  .contact-section{
+    padding: 25px 15px 45px;
+  }
+  .contact-form{
+    padding: 22px 16px;
+  }
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea{
+    font-size: 16px;
+  }
+
+  .footer-content{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-content div{
+    width: 100%;
+  }
+  .footer-bottom{
+    text-align: center;
+    padding: 15px;
+  }
+}
