@@ -1417,7 +1417,7 @@ transition: border-color 0.3s,box-shadow 0.3s;
     justify-content: center;
   }
   .hero{
-    flex-direction: column;
+    grid-template-columns: 1fr;
     text-align: center;
   }
   .hero-content,
@@ -1489,7 +1489,7 @@ transition: border-color 0.3s,box-shadow 0.3s;
     padding: 10px 0;
   }
   .contact-form{
-    width: 100px;
+    width: 100%;
   }
 }
 
@@ -1651,7 +1651,7 @@ transition: border-color 0.3s,box-shadow 0.3s;
   }
 
   .footer-content{
-    flex-direction: column;
+    grid-template-columns: 1fr;
     text-align: center;
     align-items: center;
   }
