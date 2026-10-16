@@ -257,6 +257,9 @@ align-items: center;
 .event-footer strong{
   color: #16324f;
 }
+.event-footer a{
+  padding: 8px 14px;
+}
 
 .how-it-works{
   background-color: #ffff;
