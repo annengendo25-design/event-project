@@ -1665,8 +1665,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
 }
 
 
-/* EVENT DETAILS PAGE */
-
 .event-details-page {
   background: #f7f4ef;
 }
@@ -1730,7 +1728,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
   font-size: 1.05rem;
 }
 
-/* MAIN CONTENT AND SIDEBAR */
 
 .event-detail-layout {
   max-width: 1200px;
@@ -1778,7 +1775,7 @@ transition: border-color 0.3s,box-shadow 0.3s;
   margin-bottom: 16px;
 }
 
-.detail-card > p:not(.detail-label):not(.small-note):not(.demo-note) {
+.detail-card > p:not(.detail-label){
   color: #667085;
   margin-bottom: 15px;
   line-height: 1.85;
@@ -1788,7 +1785,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
   margin-bottom: 0;
 }
 
-/* WHAT TO EXPECT */
 
 .expect-grid {
   display: grid;
@@ -1819,7 +1815,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
   line-height: 1.7;
 }
 
-/* AGENDA */
 
 .agenda-item {
   display: grid;
@@ -1845,21 +1840,11 @@ transition: border-color 0.3s,box-shadow 0.3s;
   margin-bottom: 5px;
 }
 
-.agenda-item p,
-.demo-note {
+.agenda-item p {
   color: #667085;
   font-size: 0.9rem;
   line-height: 1.7;
 }
-
-.demo-note {
-  padding: 12px;
-  margin-top: 12px;
-  background: #fff5e8;
-  border-radius: 8px;
-}
-
-/* WHAT TO BRING */
 
 .bring-list {
   list-style: none;
@@ -1872,12 +1857,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
   color: #475467;
   line-height: 1.6;
 }
-
-.bring-list li::first-letter {
-  color: #e76f51;
-}
-
-/* ORGANIZER */
 
 .organizer-profile {
   display: flex;
@@ -1910,8 +1889,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
   margin-bottom: 8px;
 }
 
-/* EVENT INFORMATION */
-
 .info-item {
   display: flex;
   align-items: flex-start;
@@ -1920,7 +1897,7 @@ transition: border-color 0.3s,box-shadow 0.3s;
   border-bottom: 1px solid #eee8df;
 }
 
-.info-item > span {
+.info-item span {
   font-size: 1.3rem;
 }
 
@@ -1935,13 +1912,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
   font-size: 0.9rem;
   line-height: 1.7;
   overflow-wrap: anywhere;
-}
-
-.small-note {
-  color: #8a94a3;
-  font-size: 0.78rem;
-  line-height: 1.6;
-  margin-top: 8px;
 }
 
 .detail-register-btn {
@@ -1962,7 +1932,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
   transform: translateY(-2px);
 }
 
-/* TICKETS */
 
 .ticket-option {
   display: flex;
@@ -1991,7 +1960,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
   font-size: 0.95rem;
 }
 
-/* RELATED EVENTS */
 
 .related-events {
   padding: 65px 30px 85px;
@@ -2013,86 +1981,8 @@ transition: border-color 0.3s,box-shadow 0.3s;
   color: #667085;
 }
 
-.related-grid {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 25px;
-}
 
-.related-card {
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  border: 1px solid #eee8df;
-  border-radius: 15px;
-  background: #fff;
-  box-shadow: 0 5px 20px rgba(22, 50, 79, 0.06);
-  transition: transform 0.3s ease,
-              box-shadow 0.3s ease;
-}
 
-.related-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 15px 30px rgba(22, 50, 79, 0.12);
-}
-
-.related-card > img {
-  width: 100%;
-  height: 210px;
-  object-fit: cover;
-}
-
-.related-card-content {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 22px;
-}
-
-.related-card-content h3 {
-  color: #16324f;
-  font-size: 1.15rem;
-  line-height: 1.4;
-  margin-bottom: 12px;
-}
-
-.related-card-content > p {
-  color: #667085;
-  font-size: 0.88rem;
-  margin-bottom: 7px;
-}
-
-.related-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  width: 100%;
-  margin-top: auto;
-  padding-top: 18px;
-  border-top: 1px solid #eee8df;
-}
-
-.related-footer strong {
-  color: #16324f;
-}
-
-.related-footer a {
-  color: #b9472c;
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
-.related-footer a:hover {
-  color: #16324f;
-}
-
-/* RESPONSIVE EVENT DETAILS */
 
 @media (max-width: 900px) {
   .event-detail-layout {
@@ -2105,9 +1995,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
     align-items: start;
   }
 
-  .related-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media (max-width: 600px) {
@@ -2150,15 +2037,6 @@ transition: border-color 0.3s,box-shadow 0.3s;
   .related-events {
     padding: 45px 15px;
   }
-
-  .related-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .related-card > img {
-    height: 220px;
-  }
-
   .organizer-profile {
     gap: 12px;
   }
